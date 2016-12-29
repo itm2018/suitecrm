@@ -1,0 +1,44 @@
+<?php
+
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Mã người dùng được chỉ định';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Người dùng';
+$mod_strings['LBL_ID'] = 'Định danh';
+$mod_strings['LBL_DATE_ENTERED'] = 'Ngày tạo';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Ngày chỉnh sửa';
+$mod_strings['LBL_MODIFIED'] = 'Chỉnh sửa bởi';
+$mod_strings['LBL_MODIFIED_ID'] = 'Chỉnh sửa bởi Id';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Chỉnh sửa bởi Tên';
+$mod_strings['LBL_CREATED'] = 'Khởi tạo bởi';
+$mod_strings['LBL_CREATED_ID'] = 'Tạo bởi người dùng';
+$mod_strings['LBL_DESCRIPTION'] = 'Mô tả';
+$mod_strings['LBL_DELETED'] = 'Đã xóa';
+$mod_strings['LBL_NAME'] = 'tên';
+$mod_strings['LBL_CREATED_USER'] = 'Tạo bởi người dùng';
+$mod_strings['LBL_MODIFIED_USER'] = 'Sửa bởi người dùng';
+$mod_strings['LBL_LIST_NAME'] = 'tên';
+$mod_strings['LBL_LIST_FORM_TITLE'] = 'Areas List';
+$mod_strings['LBL_MODULE_NAME'] = 'Areas';
+$mod_strings['LBL_MODULE_TITLE'] = 'Areas';
+$mod_strings['LBL_HOMEPAGE_TITLE'] = 'My Areas';
+$mod_strings['LNK_NEW_RECORD'] = 'Create Areas';
+$mod_strings['LNK_LIST'] = 'View Areas';
+$mod_strings['LNK_IMPORT_JJWG_AREAS'] = 'Import Areas';
+$mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Search Areas';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Xem lịch sử';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Hoạt động';
+$mod_strings['LBL_JJWG_AREAS_SUBPANEL_TITLE'] = 'Areas';
+$mod_strings['LBL_NEW_FORM_TITLE'] = 'New Areas';
+$mod_strings['LBL_CITY'] = 'Thành phố';
+$mod_strings['LBL_STATE'] = 'Tiểu bang';
+$mod_strings['LBL_COUNTRY'] = 'Country';
+$mod_strings['LBL_COORDINATES'] = 'Coordinates';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Người dùng';
+$mod_strings['LBL_AREA_MAP'] = 'Area Map';
+
+$mod_strings['LBL_AREA_EDIT_TITLE'] = 'Area Creation Instructions:';
+$mod_strings['LBL_AREA_EDIT_DESC_1'] = 'Left click on the map, in a clockwise motion, to create marker points for the area.';
+$mod_strings['LBL_AREA_EDIT_DESC_2'] = 'Click on the first marker point to close the polygon area.';
+$mod_strings['LBL_AREA_EDIT_RESET'] = 'Reset';
+$mod_strings['LBL_AREA_EDIT_USE_AREA_COORDINATES'] = 'Use Area Coordinates';
+$mod_strings['LBL_AREA_EDIT_COORDINATE_RESULTS'] = 'Coordinate Results (lng,lat,elv):';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_MAPS_TITLE'] = 'Các bản đồ';

@@ -1,0 +1,44 @@
+<?php
+
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Mã người dùng được chỉ định';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Người dùng';
+$mod_strings['LBL_ID'] = 'Định danh';
+$mod_strings['LBL_DATE_ENTERED'] = 'Ngày tạo';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Ngày chỉnh sửa';
+$mod_strings['LBL_MODIFIED'] = 'Chỉnh sửa bởi';
+$mod_strings['LBL_MODIFIED_ID'] = 'Chỉnh sửa bởi Id';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Chỉnh sửa bởi Tên';
+$mod_strings['LBL_CREATED'] = 'Khởi tạo bởi';
+$mod_strings['LBL_CREATED_ID'] = 'Tạo bởi người dùng';
+$mod_strings['LBL_DESCRIPTION'] = 'Mô tả';
+$mod_strings['LBL_DELETED'] = 'Đã xóa';
+$mod_strings['LBL_NAME'] = 'tên';
+$mod_strings['LBL_CREATED_USER'] = 'Tạo bởi người dùng';
+$mod_strings['LBL_MODIFIED_USER'] = 'Sửa bởi người dùng';
+$mod_strings['LBL_LIST_NAME'] = 'tên';
+$mod_strings['LBL_LIST_FORM_TITLE'] = 'Markers List';
+$mod_strings['LBL_MODULE_NAME'] = 'Markers';
+$mod_strings['LBL_MODULE_TITLE'] = 'Markers';
+$mod_strings['LBL_HOMEPAGE_TITLE'] = 'My Markers';
+$mod_strings['LNK_NEW_RECORD'] = 'Create Markers';
+$mod_strings['LNK_LIST'] = 'View Markers';
+$mod_strings['LNK_IMPORT_JJWG_MARKERS'] = 'Import Markers';
+$mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Search Markers';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Xem lịch sử';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Hoạt động';
+$mod_strings['LBL_JJWG_MARKERS_SUBPANEL_TITLE'] = 'Markers';
+$mod_strings['LBL_NEW_FORM_TITLE'] = 'New Markers';
+$mod_strings['LBL_CITY'] = 'Thành phố';
+$mod_strings['LBL_STATE'] = 'Tiểu bang';
+$mod_strings['LBL_COUNTRY'] = 'Country';
+$mod_strings['LBL_JJWG_MAPS_LAT'] = 'Latitude';
+$mod_strings['LBL_JJWG_MAPS_LNG'] = 'Longitude';
+$mod_strings['LBL_MARKER_IMAGE'] = 'Marker Image Type';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Giao cho';
+$mod_strings['LBL_MARKER_MAP'] = 'Marker Map';
+
+$mod_strings['LBL_MARKER_MARKER_POSITION'] = 'Marker Position (Latitude, Longitude):';
+$mod_strings['LBL_MARKER_CLOSEST_MATCHING_ADDRESS'] = 'Closest Matching Address:';
+$mod_strings['LBL_MARKER_MARKER_STATUS'] = 'Marker Status';
+$mod_strings['LBL_MARKER_EDIT_DESCRIPTION'] = 'Click and drag the marker.';
+$mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MAPS_TITLE'] = 'Các bản đồ';
