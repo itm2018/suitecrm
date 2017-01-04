@@ -1,0 +1,169 @@
+<?php
+$module_name = 'Sales_Order';
+$_object_name = 'sales_order';
+$viewdefs [$module_name] = 
+array (
+  'DetailView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_SALE_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'lbl_sale_information' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 
+          array (
+            'name' => 'currency_id',
+            'comment' => 'Currency used for display purposes',
+            'label' => 'LBL_CURRENCY',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 'sales_order_type',
+          1 => 'amount',
+        ),
+        2 => 
+        array (
+          0 => 'lead_source',
+          1 => 'date_closed',
+        ),
+        3 => 
+        array (
+          0 => 'sales_stage',
+        ),
+        4 => 
+        array (
+          0 => 'assigned_user_name',
+          1 => 'next_step',
+        ),
+        5 => 
+        array (
+          0 => 'probability',
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'order_date',
+            'label' => 'LBL_ORDER_DATE',
+          ),
+          1 => 
+          array (
+            'name' => 'order_expected_shipping_date',
+            'label' => 'LBL_ORDER_EXPECTED_SHIPPING_DATE',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'order_status',
+            'studio' => 'visible',
+            'label' => 'LBL_ORDER_STATUS',
+          ),
+          1 => 
+          array (
+            'name' => 'order_true_shipping_date',
+            'label' => 'LBL_ORDER_TRUE_SHIPPING_DATE',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'order_opportunity',
+            'studio' => 'visible',
+            'label' => 'LBL_ORDER_OPPORTUNITY',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'order_account',
+            'studio' => 'visible',
+            'label' => 'LBL_ORDER_ACCOUNT',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'order_contact',
+            'studio' => 'visible',
+            'label' => 'LBL_ORDER_CONTACT',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'order_address_street',
+            'label' => 'LBL_ORDER_ADDRESS_STREET',
+          ),
+          1 => 
+          array (
+            'name' => 'shipping_address_street',
+            'label' => 'LBL_SHIPPING_ADDRESS_STREET',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>
